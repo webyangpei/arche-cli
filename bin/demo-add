@@ -40,6 +40,11 @@ let question = [
   }
 ]
 
+fs.writeFile(`${__dirname}/../template.json`, JSON.stringify({}), 'utf-8', err => {
+  if (err) console.log(err)
+})
+
+
 inquirer
   .prompt(question).then(answers => {
   // answers 就是用户输入的内容，是个对象
