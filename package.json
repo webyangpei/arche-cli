@@ -3,15 +3,17 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "demo": "node ./bin/demo",
-    "demo-add": "node ./bin/demo-add",
-    "demo-delete": "node ./bin/demo-delete",
-    "demo-init": "node ./bin/demo-init",
-    "demo-list": "node ./bin/demo-list"
+  "bin": {
+    "demo": "bin/demo",
+    "demo-add": "bin/demo-add",
+    "demo-delete": "bin/demo-delete",
+    "demo-init": "bin/demo-init",
+    "demo-list": "bin/demo-list"
   },
-  "author": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "webyangpei",
   "license": "ISC",
   "dependencies": {
     "chalk": "^4.1.0",
