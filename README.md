@@ -1,4 +1,4 @@
-# yp-cli
+# arche-cli
 
 add template config 
 ```$xslt
